@@ -1,6 +1,6 @@
 # Changelog
 
-## [v5.6.0][] (??? ?? 2022)
+## [v5.6.0][] (Jul 04 2023)
 
 ### Features
 
@@ -10,6 +10,8 @@
 - Add elixir Item ([#373] - @aselder)
 - Git branch truncation has reverted to keeping the beginning
   - Use `set tide_git_truncation_strategy l` to keep the end instead
+- Add direnv item ([#398] - @branchvincent)
+- Never truncate directories to just a dot ([#399])
 
 ### Bug fixes
 
@@ -529,6 +531,8 @@
 [#346]: https://github.com/IlanCosman/tide/issues/346
 [#373]: https://github.com/IlanCosman/tide/pull/373
 [#394]: https://github.com/IlanCosman/tide/issues/394
+[#398]: https://github.com/IlanCosman/tide/pull/398
+[#399]: https://github.com/IlanCosman/tide/issues/399
 [prettier action]: https://github.com/actionsx/prettier
 [super-linter]: https://github.com/github/super-linter
 [v1.0.0]: https://github.com/IlanCosman/tide/tree/v1.0.0
@@ -571,3 +575,4 @@
 [v5.4.0]: https://github.com/IlanCosman/tide/tree/v5.4.0
 [v5.5.0]: https://github.com/IlanCosman/tide/tree/v5.5.0
 [v5.5.1]: https://github.com/IlanCosman/tide/tree/v5.5.1
+[v5.6.0]: https://github.com/IlanCosman/tide/tree/v5.6.0
